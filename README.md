@@ -12,6 +12,11 @@ step 4 : go to the browser's extension page  edge://extensions
 step 5 : click on load unpacked 
 step 6 : upload the project folder and that's it.
 
+API'S :
+create your own api key for the following (the link to those websites are given in the respective api fields in backgorund.js file
+1.SPELL CHECKER API 
+2.MALICIOUS URL CHECKER API 
+
 WORKING PRINCIPLE OF THE PROJECT :
 
 Check if an email is phishing with one click!
