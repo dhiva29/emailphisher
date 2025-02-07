@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@-ms-viewport{
+  width: device-width;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+	min-width: 15.625em;
+	text-align: center;
+	font-family: "Silom";
+	font-size: 1.25em;
+	color: #455A64;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#topDivider {
+	border:none;
+  	height: 1.250em;
+	height: 3.125em;
+	margin-top: 0;
+	border-bottom: 0.063em solid #1f1209;
+	box-shadow: 0 1.250em 1.250em -1.250em #333;
+  	margin: -3.125em auto 0.625em; 
+}
+
+.tooltipKeywords {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipKeywords .tooltipTextKeywords {
+  visibility: hidden;
+  width: 7.500em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  word-wrap: break-word;
+  border-radius: 0.375em;
+  padding: 0.5em 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em;
+  
+  position: absolute;
+  z-index: 1;
+  bottom: 75%;
+  left: 50%;
+  margin-left: -3.750em;
+}
+
+.tooltipKeywords .tooltipTextKeywords::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -0.313em;
+  border-width: 0.313em;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltipKeywords:hover .tooltipTextKeywords {
+  visibility: visible;
+}
+
+#keywords {
+	display: block;
+	text-align: center;
+}
+
+#keywords p {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #455A64;
+	margin-top: 1.5em;
+	margin-bottom: .75em;
+}
+
+#numKeywords {
+	font-weight: 700;
+	border-bottom: 0.125em solid currentColor;
+}
+
+#outerBarKeywords {
+	margin: auto;
+	margin-bottom: 1.5em;
+	height: 1em; 
+	width: 70%;
+	border: 0.063em solid black;
+}
+
+#innerBarKeywords {
+	height: .9em; 
+}
+
+.tooltipTypos {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltipTypos .tooltipTextTypos {
+  visibility: hidden;
+  width: 7.500em;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  word-wrap: break-word;
+  border-radius: 0.375em;
+  padding: 0.5em 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875em;
+  
+  position: absolute;
+  z-index: 1;
+  bottom: 75%;
+  left: 50%;
+  margin-left: -3.750em;
+}
+
+.tooltipTypos .tooltipTextTypos::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -0.313em;
+  border-width: 0.313em;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltipTypos:hover .tooltipTextTypos {
+  visibility: visible;
+}
+
+#typos {
+	display: block;
+	text-align: center;
+}
+
+#typos p {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #455A64;
+	margin-top: 1em;
+	margin-bottom: .75em;
+}
+
+#numTypos {
+	font-weight: 700;
+	border-bottom: 0.125em solid currentColor;
+}
+
+#outerBarTypos {
+	margin: auto;
+	margin-bottom: 1.5em;
+	height: 1em; 
+	width: 70%;
+	border: 0.063em solid black;
+}
+
+#innerBarTypos {
+	height: .9em; 
+}
+
+#unsafeLinks {
+	display: block;
+	text-align: center;
+}
+
+#unsafeLinks p {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #455A64;
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#numUnsafeLinks {
+	font-weight: 700;
+	border-bottom: 0.125em solid currentColor;
+}
+
+#score {
+	display: block;
+	text-align: center;
+}
+
+#score p {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	color: #455A64;
+	margin-top: 1.5em;
+	margin-bottom: 2.5em;
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

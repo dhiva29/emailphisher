@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="popup.css">
+	<link href="//db.onlinewebfonts.com/c/784670a6bb0f0b4c713488e8f162a30a?family=Silom" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<script src="jquery-3.5.0.min.js"></script>
+	<script src="bootstrap.bundle.js"></script>
+	<script src="tooltip.js"></script>
+</head>
+<body>
+	<h1>Email Phishing Tool</h1>
+	<hr id="topDivider">
+	<div id="keywords">
+		<p>Phishy keywords: </p>
+		<p id="numKeywords" data-toggle="tooltip"></p>
+	</div>
+	<div id="outerBarKeywords">
+		<div id="innerBarKeywords">
+		</div>
+	</div>
+	<hr>
+	<div id="typos">
+		<p>Typos: </p>
+		<p id="numTypos" data-toggle="tooltip"></p>
+	</div>
+	<div id="outerBarTypos">
+		<div id="innerBarTypos">
+		</div>
+	</div>
+	<hr>
+	<div id="unsafeLinks">
+		<p>Unsafe Links: </p>
+		<p id="numUnsafeLinks" data-toggle="tooltip"></p>	
+	</div>
+	<hr>
+	<div id="score">
+		<p id="scoreText"></p>
+	</div>
+</body>
+<script type="text/javascript" src="popup.js"></script>
+</html>
