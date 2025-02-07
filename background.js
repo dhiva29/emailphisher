@@ -68,7 +68,7 @@ function checkForTypos(highlightedText) {
 			"method": "GET",
 			"headers": {
 				"x-rapidapi-host": "montanaflynn-spellcheck.p.rapidapi.com",
-				"x-rapidapi-key": "1d0cea98damsh55645334b66fae8p19ccc4jsn579c203b5eb8"
+				"x-rapidapi-key": "insert your key"
 			}
 	})
 	.then(response => {
@@ -131,7 +131,7 @@ function checkLinks(highlightedText) {
       				]
     			}
   			}
-			fetch("https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyAZv33kd3PdNo2FAOrstYahKUNBaJ6rksE", {
+			fetch(" use https://safebrowsing.googleapis.com and get your own API KEY", {
 				"method": "POST",
 				"headers": {
 					"Content-Type": "application/json"
